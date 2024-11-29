@@ -1,0 +1,9 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using XafDemoPropertyEditor.Blazor.Server.Editors
+
+<input value=@Value maxlength="10" />
+@code {
+    [Parameter]
+    public string Value { get; set; }
+    
+}

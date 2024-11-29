@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion" />
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="False" ShowTabImage="True" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="PropertyEditor_DetailView">
+      <Items>
+        <PropertyEditor Id="Apellido" PropertyEditorType="XafDemoPropertyEditor.Blazor.Server.Editors.CustomStringPropertyEditor" />
+        <PropertyEditor Id="Nombre" PropertyEditorType="XafDemoPropertyEditor.Blazor.Server.Editors.CustomStringPropertyEditor" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>
